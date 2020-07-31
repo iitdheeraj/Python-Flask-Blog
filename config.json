@@ -1,0 +1,22 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri": "mysql://root:@localhost/codingchamp",
+        "prod_uri": "mysql://root:@localhost/codingchamp",
+        "fb_url": "https://www.facebook.com/aloneraj.singh.5",
+        "tw_url": "https://twitter.com/Dheeraj18069175",
+        "gh_url": "https://github.com/iitdheeraj",
+        "blog_name": "Coding Champs",
+        "tag_line": "Place To Show Your Programming Skills",
+        "gmail-user":"kmr.invincible@gmail.com",
+        "gmail-password":"Abcd@1443",
+        "about_text": "Hi,  I made this page during my tutorial sessions on flask, just as a project work. I love designing and creating web pages.",
+        "no_of_posts": 3,
+        "login_image":"login-bg.png",
+        "admin_user":"dheeraj",
+        "admin_password": "hellobuddy",
+        "upload_location": "D:\\Flasktutorial\\static"
+    }
+    
+}
