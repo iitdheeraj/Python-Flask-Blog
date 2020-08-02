@@ -158,9 +158,9 @@ def contact():
         mail.send_message('New message from ' + name,
                           sender=email,
                           recipients = [params['gmail-user']],
-                          body = message + "\n" + email +"\n" + phone
+                          body = "Message from " + name + " :-" + "\n" + message + "\n" + "\n" + "\n" + "Contact details :-" + "\n" + "Email : " + email +"\n" + "Phone : " + phone
                           )
-        flash("Thanks for submitting your details. We will get back to you soon", "success")
+        flash("Thanks for submitting your details. We will get back to you soon.", "success")
     return render_template('contact.html', params=params)
 
 app.run(debug=True)
